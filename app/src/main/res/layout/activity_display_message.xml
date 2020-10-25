@@ -14,7 +14,7 @@
         android:layout_marginLeft="148dp"
         android:layout_marginTop="212dp"
         android:fontFamily="monospace"
-        android:text="TextView"
+        android:text="@string/nomintroducidoprimerapantalla"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#B63030"
         android:textSize="24sp"
@@ -25,18 +25,23 @@
         android:id="@+id/saludo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:background="#F44336"
+        android:fontFamily="monospace"
+        android:text="@string/saludo"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="127dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/siguientepantalla"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/sgtepantalla"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
