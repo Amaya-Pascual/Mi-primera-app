@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Mi primera app</string>
-    <string name="edit_message">Enter a message</string>
-    <string name="button_send">Send</string>
+    <string name="edit_message">Bienvenido a mi primera APP</string>
+    <string name="button_send">Nombre</string>
 
-    <string name="introduceombre">Bienvenido a mi primera app. Introduce tu nombre:</string>
+    <string name="introduceombre">Introduce tu nombre:</string>
+    <string name="bienvenida">Nos alegrgamos de verte </string>
+    <string name="button_pantallatres">Siguiente pantalla</string>
+
+
 </resources>
